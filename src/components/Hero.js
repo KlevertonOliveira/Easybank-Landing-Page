@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Hero = () => {
 	return (
-		<section className='bg-very-light-gray grid md:grid-cols-2 md:my-4 lg:my-0 items-center'>
+		<section className='bg-very-light-gray grid md:grid-cols-2 md:my-4 lg:my-0 items-center overflow-visible'>
 			
 			{/* Heading + Text */}
 			<div className='spacing mt-8 text-center md:mt-0 md:text-left'>
@@ -21,10 +21,12 @@ const Hero = () => {
 			{/* Images */}
 			<div 
 				className="relative order-first md:order-last bg-hero-mobile bg-cover bg-no-repeat bg-center min-h-mobile-image-height 
-				lg:h-hero-desktop lg:bg-hero-desktop">
+				lg:h-hero-desktop lg:bg-hero-desktop
+				lg:bg-left-center overflow-visible
+				">
 				
 				<div className='absolute h-full w-full bg-mockups bg-size bg-mobile-position bg-no-repeat
-				lg:bg-left-center
+				lg:bg-left-top 
 				'></div>
 			
 			</div>
