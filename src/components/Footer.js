@@ -70,7 +70,7 @@ const Footer = () => {
 					</div>
 
 					{/* Column 2 */}
-					<div className='text-light-grayish-blue mb-4 md:mb-0 text-left'>
+					<div className='text-light-grayish-blue mb-4 md:mb-0 md:text-left'>
 						<ul className='grid gap-y-3'>
 							<li>
 								<Link href='#'>
@@ -92,7 +92,7 @@ const Footer = () => {
 
 					{/* Column 3 */}
 					<div className='text-light-grayish-blue mb-10 md:mb-0'>
-						<ul className='grid gap-y-3 text-left'>
+						<ul className='grid gap-y-3 md:text-left'>
 							<li>
 								<Link href='#'>
 									<a className='footer-link'>Careers</a>
