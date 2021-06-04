@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .dropdown-link{
+    @apply text-dark-blue text-lg hover:opacity-60;
+  }
+
+  .navbar-link{
+    @apply text-grayish-blue hover:text-dark-blue hover:pb-6;
+  }
+
+  .navbar-link:hover{
+    border-bottom: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  }
+
+  .cta-button{
+    @apply py-3 px-8 rounded-full bg-gradient-to-r from-lime-green to-bright-cyan text-white-main font-bold hover:opacity-80 inline-block;
+    font-size: 0.9rem;
+  }
+}
+
+@layer utilities{
+  .spacing{
+    @apply px-6 md:px-12 lg:px-24 desktop:px-48;
+  }
+  .footer-link{
+    @apply font-light hover:opacity-80 hover:underline;
+  }
+  .bg-size{
+    background-size: 93%;
+  }
+  .bg-mobile-position{
+    background-position: center bottom;
+  }
+  .bg-desktop-position{
+    background-position: left center;
+  }
+}
