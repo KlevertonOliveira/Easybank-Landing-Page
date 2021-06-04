@@ -34,7 +34,7 @@ module.exports = {
 			},
 
 			height:{
-				'hero-desktop':'43rem'	
+				'hero-desktop':'45rem'	
 			},
 
 			minHeight:{
