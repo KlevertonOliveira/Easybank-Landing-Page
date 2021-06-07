@@ -14,7 +14,7 @@ const Navbar = ({ toggle, isOpen }) => {
 				</div>
 
 				{/* Hamburger / Menu Toggle */}
-				<div className='md:hidden cursor-pointer' onClick={toggle}>
+				<div className='lg:hidden cursor-pointer' onClick={toggle}>
 					{isOpen ? (
 						<img src='/images/icon-close.svg' alt='dropdown menu toggle icon' />
 					) : (
@@ -26,7 +26,7 @@ const Navbar = ({ toggle, isOpen }) => {
 				</div>
 
 				{/* Links / Item's List */}
-				<ul className='hidden md:flex md:gap-x-6 lg:gap-x-10'>
+				<ul className='hidden lg:flex lg:gap-x-10'>
 					<li>
 						<Link href='#'>
 							<a className='navbar-link'>Home</a>
@@ -55,7 +55,7 @@ const Navbar = ({ toggle, isOpen }) => {
 				</ul>
 
 				{/* CTA button */}
-				<div className='hidden md:block'>
+				<div className='hidden lg:block'>
 					<Link href='#'>
 						<a className='cta-button'>Request Invite</a>
 					</Link>

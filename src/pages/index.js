@@ -43,7 +43,7 @@ export default function Home() {
 				<Hero />
 
 				<div>
-					{/* Why Choose/ Reasons Section */}
+					{/* Why Choose / Reasons Section */}
 					<section className='spacing py-16 bg-light-grayish-blue text-center'>
 						<h2 className='mb-4 text-dark-blue text-3xl md:text-3.5xl leading-9 md:text-left'>
 							Why choose

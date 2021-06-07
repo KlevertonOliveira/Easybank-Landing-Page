@@ -9,8 +9,9 @@ module.exports = {
 				 'mockups':"url('/images/image-mockups.png')",
         }),
 
-			backgroundPosition:{
-				'left-center':'left center'
+			backgroundSize:{
+				'size-60':'60%',
+				'size-90':'90%',
 			},
 
 			colors: {
@@ -34,7 +35,8 @@ module.exports = {
 			},
 
 			height:{
-				'hero-desktop':'45rem'	
+				'hero-desktop':'35rem',
+				'inner-hero-desktop':'40rem'
 			},
 
 			minHeight:{
@@ -50,6 +52,7 @@ module.exports = {
 	variants: {
 		extend: {
 			padding: ['hover'],
+			fill: ['hover'],
 		},
 	},
 	plugins: [],

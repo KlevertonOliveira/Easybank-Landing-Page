@@ -22,7 +22,7 @@ const Article = ({ article }) => {
 				<p className='text-sm text-grayish-blue font-light'>{author}</p>
 				<Link href='#'>
 					<a>
-						<h3 className='text-dark-blue mt-3 mb-2 lg:text-lg hover:opacity-70'>
+						<h3 className='text-dark-blue mt-3 mb-2 lg:text-lg  hover:text-bright-cyan'>
 							{title}
 						</h3>
 					</a>

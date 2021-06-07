@@ -27,18 +27,12 @@
 
 @layer utilities{
   .spacing{
-    @apply px-6 md:px-12 lg:px-24 desktop:px-48;
+    @apply px-8 md:px-12 lg:px-16 desktop:px-24;
   }
   .footer-link{
-    @apply font-light hover:opacity-80 hover:underline;
+    @apply font-light hover:opacity-80 hover:text-lime-green;
   }
-  .bg-size{
-    background-size: 93%;
-  }
-  .bg-mobile-position{
-    background-position: center bottom;
-  }
-  .bg-desktop-position{
-    background-position: left center;
+  .social_media-link{
+    @apply fill-current text-white-main hover:text-lime-green transition duration-200 ease-in-out;
   }
 }
