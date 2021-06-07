@@ -5,20 +5,21 @@ const Article = ({ article }) => {
 	const { image, author, title, text } = article;
 
 	return (
-		<article className='bg-white-main shadow-md text-left grid place-items-center'>
-			<Link href='#'>
-				<a>
-					<Image
-						src={`/${image}`}
-						alt={title}
-						height={365}
-						width={600}
-						objectFit='cover'
-						className='rounded-t-md transform hover:scale-125 transition duration-500 ease-in-out'
-					/>
-				</a>
-			</Link>
-			<div className='p-5 lg:p-7'>
+		<article className='bg-white-main shadow-md grid place-items-center transform hover:scale-105 transition duration-500 ease-in-out'>
+			
+			<div className='w-full'>
+				<Link href='#'>
+					<a>
+						<img
+							src={`/${image}`}
+							alt={title}
+							className='rounded-t-md w-full h-56 object-cover'
+						/>
+					</a>
+				</Link>
+			</div>
+			
+			<div className='p-5 lg:p-7 text-left'>
 				<p className='text-sm text-grayish-blue font-light'>{author}</p>
 				<Link href='#'>
 					<a>
@@ -31,6 +32,7 @@ const Article = ({ article }) => {
 					{text}
 				</p>
 			</div>
+
 		</article>
 	);
 };

@@ -1,8 +1,9 @@
 import Link from 'next/link';
+import Dropdown from './Dropdown';
 
-const Hero = () => {
+const Hero = ({isOpen}) => {
 	return (
-		<section className='bg-very-light-gray grid lg:grid-cols-2 lg:my-0 items-center overflow-visible desktop:grid-cols-9'>
+		<section className='relative bg-very-light-gray grid lg:grid-cols-2 lg:my-0 items-center overflow-visible desktop:grid-cols-9'>
 			
 			{/* Heading + Text */}
 			<div className='spacing mb-8 text-center lg:mb-0 
@@ -42,6 +43,10 @@ const Hero = () => {
 					
 					desktop:bg-size-60 desktop:bg-bottom
 					'>
+				</div>
+
+				<div className='absolute z-10 w-full h-full'>
+					<Dropdown isOpen={isOpen} />
 				</div>
 
 			</div> 

@@ -16,7 +16,7 @@ export default function Home() {
 	};
 
 	const hideDropdown = () => {
-		if (window.innerWidth > 768 && isOpen) {
+		if (window.innerWidth > 1024 && isOpen) {
 			setIsOpen(false);
 		}
 	};
@@ -37,10 +37,9 @@ export default function Home() {
 			</Head>
 
 			<Navbar toggle={toggle} isOpen={isOpen} />
-			<Dropdown isOpen={isOpen} />
 
 			<main>
-				<Hero />
+				<Hero isOpen={isOpen}/>
 
 				<div>
 					{/* Why Choose / Reasons Section */}
@@ -70,7 +69,7 @@ export default function Home() {
 							Latest Articles
 						</h2>
 
-						<div className='mt-10 grid gap-y-10 md:grid-cols-2 md:gap-x-10 lg:grid-cols-3 lg:gap-x-16 desktop:grid-cols-4 desktop:gap-x-20'>
+						<div className='mt-10 grid gap-y-10 md:grid-cols-2 md:gap-x-10 lg:grid-cols-3 lg:gap-x-12 desktop:grid-cols-4 desktop:gap-x-20'>
 							{articlesContent.map((article) => {
 								return <Article key={article.title} article={article} />;
 							})}
