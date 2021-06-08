@@ -72,7 +72,7 @@ export default function Home() {
 						<div className='mt-10 grid gap-y-10 md:grid-cols-2 md:gap-x-10 lg:grid-cols-3 lg:gap-x-12 desktop:grid-cols-4 desktop:gap-x-20'>
 							{articlesContent.map((article) => {
 								return <Article key={article.title} article={article} />;
-							})}
+							})} 
 						</div>
 					</section>
 				</div>
