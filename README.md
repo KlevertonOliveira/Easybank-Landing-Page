@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Easybank Landing Page (English / Português)
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/KlevertonOliveira/Easybank-Landing-Page/blob/main/LICENSE)
 
-## Getting Started
+---
 
-First, run the development server:
+## :art: Layout web
+![Alt Text](assets/easybank-lp.gif)
+
+
+---
+
+[Project Presentation](https://easybank-landing-page-2021-klevertonoliveira.vercel.app/) /
+[Apresentação do Projeto](https://easybank-landing-page-2021-klevertonoliveira.vercel.app/)
+
+---
+
+## :mag_right: About the project / Sobre o projeto
+
+Easybank Landing Page is an application developed as a solution to the [challenge](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) of the same name proposed by the website [Frontend Mentor](https://www.frontendmentor.io/). As a differential for the development of this application, I chose to use NextJS and TailwindCSS Frameworks in order to make the development faster and more responsive.
+
+This application implements a project of a landing page for the Easybank company. As it is fully responsive, the application is suitable for viewing by devices with different screen sizes.
+
+---
+
+Easybank Landing Page é uma aplicação desenvolvida como solução ao [desafio](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN) de mesmo nome proposto pelo site [Frontend Mentor](https://www.frontendmentor.io/). Como diferencial para o desenvolvimento deste aplicativo, optei por utilizar os Frameworks NextJS e TailwindCSS com o intuito de tornar o desenvolvimento mais rápido e responsivo.
+
+A aplicação implementa um projeto de uma landing page para uma empresa denominada Easybank. Por ser totalmente responsiva, a aplicação atende a visualização por aparelhos com tamanhos de tela variados.
+
+---
+
+## :gear: Technologies Used / Tecnologias utilizadas
+
+### Front end
+- HTML5
+- [Tailwind CSS](https://tailwindcss.com/) (CSS Framework)
+- Javascript ES6
+- [NextJS](https://nextjs.org/) (React Framework)
+
+## :file_folder: How to run the project / Como executar o projeto
+
+Prerequisites / Pré-requisitos: npm / yarn
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone repository / Clonar repositório
+git clone https://github.com/KlevertonOliveira/Easybank-Landing-Page.git
+
+# Enter the project folder / Entrar na pasta do projeto
+cd Easybank-Landing-Page
+
+# Install dependencies / Instalar dependências
+yarn install
+
+# Run the project / Executar o projeto
+yarn dev or/ou yarn build && yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## :raising_hand_man: Author / Autor
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+José Kleverton Yvens Oliveira
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+https://www.linkedin.com/in/kleverton-oliveira/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
