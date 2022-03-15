@@ -58,5 +58,5 @@ yarn dev or/ou yarn build && yarn start
 
 José Kleverton Yvens Oliveira
 
-https://www.linkedin.com/in/kleverton-oliveira/
+https://www.linkedin.com/in/klevertonoliveira/
 
